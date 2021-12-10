@@ -1,0 +1,20 @@
+body{
+    background-color: sandybrown;
+}
+kbd{
+   display: inline-block;
+    height: 15em;
+    width: 3em;
+    background-color: #fff;
+    border: black solid 2px;
+    text-align: center;
+    margin-left: -10px;
+
+
+}
+.container{
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
