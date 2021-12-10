@@ -1,19 +1,53 @@
-body{
+body {
     background-color: sandybrown;
 }
-kbd{
-   display: inline-block;
-    height: 15em;
-    width: 3em;
+
+.white-keys kbd {
+    display: inline-block;
+    height: 496px;
+    width: 76px;
     background-color: #fff;
     border: black solid 2px;
     text-align: center;
-    margin-left: -10px;
-
+    margin-left: -5px;
 
 }
-.container{
-position: absolute;
+
+.black-keys kbd {
+    display: inline-block;
+    height: 256px;
+    width: 56px;
+    background-color: #000;
+    color: #fff;
+    border: white solid 2px;
+    text-align: center;
+    /*margin-left: -5px;*/
+
+    transform: translate(0, -500px);
+}
+
+.w {
+    margin-left: 45px;
+}
+
+.e {
+    margin-left: 15px;
+}
+
+.t {
+    margin-left: 95px; /*NOT THE BEST WAY TO PUT KEYS ON IDEAL PLACE BUT ITS WORKING xd*/
+}
+
+.y {
+    margin-left: 15px;
+}
+
+.u {
+    margin-left: 15px;
+}
+
+.container {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
